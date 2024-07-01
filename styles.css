@@ -1,0 +1,161 @@
+html,body{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+        background-color: #dcdbdb90;
+        font-family: 'Noto Serif', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+   
+nav{
+    display:flex;
+    width: 100%;
+    background-color:#000 ;
+    justify-content: flex-end;
+    position: fixed;
+    margin-top: 0%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    gap: 30px;
+    }
+    nav a{
+        text-decoration: none;
+        font-size: 20px;
+        color: #fff;
+         padding-right:10px;
+   
+    }
+    nav  a:hover{
+        background-color: hsl(0, 0%, 76%);
+
+    }
+    
+    .product-container{
+        background-color: #fff;
+        width: 800px;
+        padding: 20px;
+        padding-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+     img{
+        
+        width: 100%;
+    }
+    .product-image img{
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 350px;
+    }
+    .product-detail{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        width: 400px;
+    }
+    .product-detail ul{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .product-detail h1 h3 p{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .promo-code p{
+        width:270px;
+        font-size: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+        font-weight: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(179, 252, 228, 0.866);
+        border:solid 3px greenyellow;
+    }
+    .promo-code p:hover{
+        font-size:medium;
+
+    }
+    .row{
+        display: flex;
+           }
+          .row .related-product{
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border: #000 solid 2px;
+            margin-left: 10px;
+            margin-right: 10px;
+            gap: 30px;
+            background-color: bisque;
+            
+           }
+           
+           .row .related-product p{
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            visibility: hidden;
+           }
+           .related-product:hover p{
+            visibility: visible;
+    
+           }
+
+    footer{
+        background-color: #000;
+        color: #fff;
+        font-family: 'lora', Tahoma, Geneva, Verdana, sans-serif;
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+            }
+            .row .related-team{
+                margin-left: 10px;
+                margin-right: 10px;
+                padding-left: 10px 10px;
+            }
+           .row .related-team img{
+            border-radius: 50%;
+            width: 130px;
+            padding: 10px 10px;
+        
+
+            }
+        #text{
+            margin-top: 40px;
+        }
+         .img-container{
+            position: relative;
+         }
+        .img-container img{
+            width: 100%;
+            display: block;
+        }
+        .overlay {
+            position: absolute;
+            top:0 ;
+            background: rgb(0, 0, 0);
+            background: rgba(0, 0, 0, 0.1); 
+            color: #f1f1f1;
+            width: 90%;
+            transition: .5s ease;
+            opacity:0;
+            color: white;
+            font-size: 20px;
+            padding: 5px;
+            
+            text-align:right;
+            
+        }
+       .img-container:hover .overlay{
+        opacity: 1;
+       }
